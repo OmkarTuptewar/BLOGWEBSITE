@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      Hello this is blog site
+      
     </>
   )
 }
