@@ -5,9 +5,7 @@ function App() {
 
   return (
     <>
-      Hello this is blog site
-      hello samyak
-      hello omkar here
+     
       
     </>
   )
