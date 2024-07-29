@@ -1,13 +1,25 @@
+import React from 'react'
 import './App.css'
+import {Route} from "react-router-dom"
+import Hompage from './pages/Hompage'
+import BlogPage from './pages/BlogPage'
 
-function App() {
- 
-
+const App = () => {
   return (
-    <>
-    hello 
-      
-    </>
+    
+    <div className='App'>
+
+      <Route  
+         path='/' component={Hompage}
+         exact
+      />
+      <Route
+         path='/blogs' 
+         component={BlogPage}
+      />
+
+    </div>
+
   )
 }
 

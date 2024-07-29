@@ -1,0 +1,50 @@
+.formSection {
+    display: flex;
+    width: 100%;
+    
+    justify-content: center;
+   
+    
+    box-shadow: 0px 0px 8px rgba(19, 18, 18, 0.3);
+ 
+    
+    border-radius: 10px ;
+    
+    font-size: 30px;
+    padding: 10px;
+  }
+  
+  .formSection input {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+  
+  }
+  
+  .formSection .enabled {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #2b63b8;
+    color: white;
+    border: solid 2px #000000;
+  }
+  .formSection .disabled {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #090540;
+    color: white;
+    border: solid 2px #000000;
+  }
+  .formSection .disabled:hover {
+    cursor: not-allowed;
+  }
+  .formSection button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #2b63b8;
+    color: white;
+    border: solid 2px #000000;
+  }
